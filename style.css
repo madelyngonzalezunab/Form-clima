@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.traffic-form-container {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 450px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.textbox {
+  margin-bottom: 20px;
+}
+
+.result-card {
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.result-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.result-card p {
+  margin: 6px 0;
+  color: #444;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
